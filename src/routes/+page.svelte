@@ -1,4 +1,7 @@
 <script>
-    /** @type {import('./$types').PageData} */
-    export let data;
+	import Hero from "./home/hero.svelte";
+
+
 </script>
+
+<Hero/>

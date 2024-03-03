@@ -34,5 +34,9 @@
 		"vitest": "^0.25.8",
 		"web-vitals": "^3.5.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@fontsource/barlow-condensed": "^5.0.8",
+		"@fontsource/darumadrop-one": "^5.0.17"
+	}
 }
