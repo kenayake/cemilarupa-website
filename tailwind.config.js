@@ -5,7 +5,8 @@ export default {
     extend: {
       fontFamily: {
         DiloWorld: ['"DiloWorld"', "sans-serif"],
-        Barlow: ['"Barlow Condensed"', "sans-serif"]
+        daruma: ['"Darumadrop One"', "sans-serif"],
+        londrina: ['"Londrina Solid"', "sans-serif"]
       }
     },
     colors: {
