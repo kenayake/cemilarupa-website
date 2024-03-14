@@ -26,7 +26,7 @@
 <style>
 	@font-face {
 		font-family: DiloWorld;
-		src: url('$lib/fonts/DiloWorld.ttf');
+		src: url('/fonts/DiloWorld.ttf');
 	}
 
 	.dilo {
