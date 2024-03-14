@@ -30,7 +30,7 @@
 	}
 
 	.dilo {
-		font-family: DiloWorld;
+		font-family: DiloWorld, sans-serif;
 	}
 
 	.divider-vertical {
