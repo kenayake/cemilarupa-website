@@ -10,12 +10,12 @@
 	</div>
 	<div class="flex flex-col justify-around ml-20">
 		<div class="space-y-5">
-			<h1 class="text-4xl">Welcome to Camilarupa</h1>
+			<h1 class="text-4xl">Welcome to Cemilarupa</h1>
 			<h1 class="text-8xl text-tertiary dilo">Cemilan Enak Urang Pajambon</h1>
 			<h1 class="text-4xl">Dijamin bikin nagihh!</h1>
 		</div>
 		<a
-			href="/"
+			href="#products"
 			class="p-3 px-6 text-4xl font-daruma w-fit bg-secondary text-tertiary rounded-full ml-1 hover:bg-tertiary hover:text-secondary"
 			>Beli Sekarang!</a
 		>
