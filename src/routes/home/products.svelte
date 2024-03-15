@@ -5,7 +5,7 @@ import kripang from '$lib/images/products/7.png'
 import basreng from '$lib/images/products/8.png'
 import siebol from '$lib/images/products/10.png'
 import bg from '$lib/images/bg-kertas.png'
-	import { capitalize } from 'lodash';
+	import _ from 'lodash';
 
 	const products = [
 		{
@@ -79,7 +79,7 @@ import bg from '$lib/images/bg-kertas.png'
                 <a href={product.link} class="p-2 bg-secondary hover:bg-primary rounded-full font-daruma"
                     ><img src="https://i.pinimg.com/originals/77/7d/c8/777dc8f47b66af05caff4015d5f416d8.png" alt="shopee logo" class="h-8"></a
                 >
-                <a href="https://wa.me/6281224549094?text=Halo%20kak%2C%20mau%20beli%20cemilan%20{capitalize(product.name)}" class="p-3 bg-secondary hover:bg-primary  rounded-full font-daruma"
+                <a href="https://wa.me/6281224549094?text=Halo%20kak%2C%20mau%20beli%20cemilan%20{_.capitalize(product.name)}" class="p-3 bg-secondary hover:bg-primary  rounded-full font-daruma"
                     ><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png" alt="shopee logo" class="h-6"></a
                 >
             </div>
