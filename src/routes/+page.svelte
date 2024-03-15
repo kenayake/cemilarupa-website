@@ -1,5 +1,6 @@
 <script>
-	import Hero from "./home/hero.svelte";
+	import About from "./home/about.svelte";
+import Hero from "./home/hero.svelte";
 	import Products from "./home/products.svelte";
 
 
@@ -7,3 +8,4 @@
 
 <Hero/>
 <Products />
+<About />

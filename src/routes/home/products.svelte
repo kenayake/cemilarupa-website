@@ -5,6 +5,7 @@ import kripang from '$lib/images/products/7.png'
 import basreng from '$lib/images/products/8.png'
 import siebol from '$lib/images/products/10.png'
 import bg from '$lib/images/bg-kertas.png'
+	import { capitalize } from 'lodash';
 
 	const products = [
 		{
@@ -12,8 +13,7 @@ import bg from '$lib/images/bg-kertas.png'
 			longName: 'BOLED KERING',
 			description:
 				'keripik khas terbuat dari olahan ubi di campur dengan bumbu buatan sendiri yang gurih dan nikmat',
-			link: 'https://shopee.co.id/BOLED-KERING-(BOLRING)-i.1192231731.24365134614',
-            wa: "",
+			link: 'https://shp.ee/iyjpc6z',
             img: bolring
 		},
 		{
@@ -21,8 +21,7 @@ import bg from '$lib/images/bg-kertas.png'
 			longName: 'CIMOL KERING',
 			description:
 				'keripik khas terbuat dari olahan aci di campur dengan bumbu buatan sendiri yang gurih dan nikmat',
-			link: 'https://shopee.co.id/MOLET-KERING-(MOLRING)-i.1192231731.24765202537?xptdk=d4f054a4-67ee-49a1-8243-1d8ce8b3d4a5',
-            wa: "",
+			link: 'https://shp.ee/bk7fqgx',
             img: molring
 		},
 		{
@@ -30,8 +29,7 @@ import bg from '$lib/images/bg-kertas.png'
 			longName: 'KERIPIK PANGSIT',
 			description:
 				'keripik khas terbuat dari TEPUNG ADONAN PANGSIT campur dengan bumbu buatan sendiri yang gurih dan nikmat',
-			link: 'https://shopee.co.id/KERIPIK-PANGSIT-(KRIPANG)-i.1192231731.25915202460?xptdk=42ce0a3b-73b0-43a6-9f91-caecaa2baf35',
-            wa: "",
+			link: 'https://shp.ee/boe0bvf',
             img: kripang
 		},
 		{
@@ -39,8 +37,7 @@ import bg from '$lib/images/bg-kertas.png'
 			longName: 'BAKSO GORENG',
 			description:
 				'keripik khas terbuat dari olahan bakso ikan di campur dengan bumbu buatan sendiri yang gurih dan nikmat',
-			link: 'https://shopee.co.id/BAKSO-GORENG-(BASRENG)-i.1192231731.24965205902?xptdk=0fe363ee-c4a7-439a-9814-0b0e27d65f84',
-            wa: "",
+			link: 'https://shp.ee/dtbbpf7',
             img: basreng
 		},
 		{
@@ -48,8 +45,7 @@ import bg from '$lib/images/bg-kertas.png'
 			longName: 'SISTIK ENAK BOLED',
 			description:
 				'keripik khas terbuat dari olahan tepung gandum berbentuk stik dengan bumbu buatan sendiri yang gurih dan nikmat',
-			link: 'https://shopee.co.id/SISTIK-ENAK-BOLET-(SIEBOL)-i.1192231731.24515203241?xptdk=d23f3ccf-aea6-4152-b121-e31065789238',
-            wa: "",
+			link: 'https://shp.ee/wh06qpo',
             img: siebol
 		}
 	];
@@ -83,7 +79,7 @@ import bg from '$lib/images/bg-kertas.png'
                 <a href={product.link} class="p-2 bg-secondary hover:bg-primary rounded-full font-daruma"
                     ><img src="https://i.pinimg.com/originals/77/7d/c8/777dc8f47b66af05caff4015d5f416d8.png" alt="shopee logo" class="h-8"></a
                 >
-                <a href={product.wa} class="p-3 bg-secondary hover:bg-primary  rounded-full font-daruma"
+                <a href="https://wa.me/6281224549094?text=Halo%20kak%2C%20mau%20beli%20cemilan%20{capitalize(product.name)}" class="p-3 bg-secondary hover:bg-primary  rounded-full font-daruma"
                     ><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png" alt="shopee logo" class="h-6"></a
                 >
             </div>
