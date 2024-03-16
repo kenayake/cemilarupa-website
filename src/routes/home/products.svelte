@@ -51,7 +51,7 @@ import bg from '$lib/images/bg-kertas.png'
 	];
 </script>
 
-<div class="flex flex-col items-center text-secondary pb-20 pt-10 font-londrina bg-cover" id="products" style="background-image: url({bg});">
+<section class="flex flex-col items-center text-secondary pb-20 pt-10 font-londrina bg-cover" id="products" style="background-image: url({bg});">
     <div class="space-y-10 py-20 flex flex-col items-center">
         <p class="text-5xl">TERSEDIA 5 VARIANT DENGAN 3 TINGKAT KEPEDASAN</p>
         <div class="flex justify-evenly w-full text-2xl">
@@ -110,7 +110,7 @@ import bg from '$lib/images/bg-kertas.png'
             </div>
         {/if} -->
     {/each}
-</div>
+</section>
 
 <style>
 </style>

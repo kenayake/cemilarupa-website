@@ -3,11 +3,11 @@
 </script>
 
 <section
-	class="font-londrina bg-primary text-tertiary py-10 px-2 lg:px-40 lg:text-xl"
+	class="font-londrina bg-primary text-tertiary py-10 space-y-10 px-2 lg:px-40 lg:text-xl"
 	id="tentang-kami"
 >
-	<h1 class="text-center text-5xl mb-10">TENTANG KAMI</h1>
-	<div class="mb-10 lg:w-[40vw] lg:mx-auto"><img src={ibuPKK} alt="gambar ibu-ibu PKK desa pajambon" class="rounded-3xl" /></div>
+	<h1 class="text-center text-5xl">TENTANG KAMI</h1>
+	<div class="lg:w-[40vw] lg:mx-auto"><img src={ibuPKK} alt="gambar ibu-ibu PKK desa pajambon" class="rounded-3xl" /></div>
 	<div class="space-y-5 lg:space-y-10 text-justify">
 		<p class="">
 			Tim Pembinaan Kesejahteraan Keluarga (PKK) Desa Pajambon bekerja di bawah administrasi Desa

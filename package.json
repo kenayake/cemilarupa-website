@@ -40,6 +40,7 @@
 		"@fontsource/barlow-condensed": "^5.0.8",
 		"@fontsource/darumadrop-one": "^5.0.17",
 		"@fontsource/londrina-solid": "^5.0.18",
-		"lodash": "^4.17.21"
+		"lodash": "^4.17.21",
+		"ol": "^9.0.0"
 	}
 }

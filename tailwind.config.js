@@ -6,15 +6,16 @@ export default {
       fontFamily: {
         DiloWorld: ['"DiloWorld"', "sans-serif"],
         daruma: ['"Darumadrop One"', "sans-serif"],
-        londrina: ['"Londrina Solid"', "sans-serif"]
+        londrina: ['"Londrina Solid"', "sans-serif"],
+        barlow: ['"Barlow Condensed"',"sans-serif"]
+      },
+      colors: {
+        'primary': "#FFD213",
+        'secondary': '#ffffff',
+        'tertiary': '#952627',
+        'black': '#000000'
       }
     },
-    colors: {
-      'primary': "#FFD213",
-      'secondary': '#ffffff',
-      'tertiary': '#952627',
-      'black': '#000000'
-    }
   },
   plugins: [],
 }
