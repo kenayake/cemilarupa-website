@@ -51,36 +51,36 @@ import bg from '$lib/images/bg-kertas.png'
 	];
 </script>
 
-<section class="flex flex-col items-center text-secondary pb-20 pt-10 font-londrina bg-cover" id="products" style="background-image: url({bg});">
-    <div class="space-y-10 py-20 flex flex-col items-center">
-        <p class="text-5xl">TERSEDIA 5 VARIANT DENGAN 3 TINGKAT KEPEDASAN</p>
-        <div class="flex justify-evenly w-full text-2xl">
+<section class="flex flex-col items-center text-secondary pb-20 pt-10 font-londrina bg-cover max-lg:pt-5" id="products" style="background-image: url({bg});">
+    <div class="space-y-10 py-20 flex flex-col items-center justify-center max-lg:space-y-5 max-lg:py-10">
+        <h1 class="text-5xl text-center max-lg:text-3xl">TERSEDIA 5 VARIANT DENGAN 3 TINGKAT KEPEDASAN</h1>
+        <div class="flex justify-evenly w-full text-2xl max-lg:text-xl max-lg:w-5/6">
             <p>ORIGINAL</p>
             <p>PEDAS</p>
             <p>EXTRA PEDAS</p>
         </div>
     </div>
     {#each products as product, index}
-    <div class="flex  justify-center w-2/3">
+    <div class="flex justify-center w-2/3 max-lg:w-full">
         <img
             src={product.img}
             alt=""
-            class="aspect-square object-cover h-72"
+            class="aspect-square object-cover w-72 max-lg:w-1/3"
         />
-        <div class="flex flex-col justify-evenly w-full">
-            <h6 class="text-5xl ">
+        <div class="flex flex-col justify-evenly w-full max-lg:pr-5 max-lg:my-5">
+            <h6 class="text-5xl max-lg:text-3xl">
                 {product.name} <span class="align-middle text-xl">/{product.longName}</span>
             </h6>
-            <p class="text-xl">
+            <p class="text-xl max-lg:text-base">
                 {product.description.toUpperCase()}
             </p>
-            <div class="flex space-x-4 items-center">
-                <p class="text-xl">{"Beli disini: ".toUpperCase()}</p>
-                <a href={product.link} class="p-2 bg-secondary hover:bg-primary rounded-full font-daruma"
-                    ><img src="https://i.pinimg.com/originals/77/7d/c8/777dc8f47b66af05caff4015d5f416d8.png" alt="shopee logo" class="h-8"></a
+            <div class="flex space-x-4 items-center max-lg:space-x-2 max-lg:mt-2">
+                <p class="text-xl max-lg:text-lg">{"Beli disini: ".toUpperCase()}</p>
+                <a href={product.link} class="p-1 bg-secondary hover:bg-primary rounded-full font-daruma"
+                    ><img src="https://i.pinimg.com/originals/77/7d/c8/777dc8f47b66af05caff4015d5f416d8.png" alt="shopee logo" class="h-8 max-lg:h-6"></a
                 >
-                <a href="https://wa.me/6281224549094?text=Halo%20kak%2C%20mau%20beli%20cemilan%20{_.capitalize(product.name)}" class="p-3 bg-secondary hover:bg-primary  rounded-full font-daruma"
-                    ><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png" alt="shopee logo" class="h-6"></a
+                <a href="https://wa.me/6281224549094?text=Halo%20kak%2C%20mau%20beli%20cemilan%20{_.capitalize(product.name)}" class="p-2 bg-secondary hover:bg-primary  rounded-full font-daruma"
+                    ><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png" alt="shopee logo" class="h-4"></a
                 >
             </div>
         </div>

@@ -21,7 +21,7 @@
 			</p>
 		</div>
 		<div class="border-b" />
-		<div class="flex lg:space-x-8 lg:items-center max-lg:justify-center max-lg:flex-col ">
+		<div class="flex lg:space-x-5 lg:items-center max-lg:justify-center max-lg:flex-col ">
 			<div class="max-lg:mb-2">
 				<div class="flex items-center mb-2">
 					<img src={clock} alt="clock icon" class="w-5 aspect-square" />
@@ -30,24 +30,31 @@
 				<p class="text-black font-sans text-base">Offline: Rabu - Kamis, 8AM - 3PM</p>
 				<p class="text-black font-sans text-base">Online: Senin - Jumat, 8AM - 5PM</p>
 			</div>
-			<div class="flex lg:space-x-2 max-lg:space-x-2 max-lg:mb-5">
-				<img
-					src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png"
-					alt="instagram icon"
-                    class="w-20 max-lg:w-8"
-				/>
-				<img
-					src="https://static-00.iconduck.com/assets.00/tik-tok-icon-1024x1024-zwq641op.png"
-					alt="tiktok icon"
-                    class="w-20 max-lg:w-8"
-				/>
-				<img
-					src={wa}
-					alt="whatsapp icon"
-                    class="w-20 max-lg:w-8"
-				/>
+			<div class="flex lg:space-x-5 max-lg:space-x-2">
+				<a href="https://www.instagram.com/cemilarupa.id/">
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png"
+						alt="instagram icon"
+										class="w-20 max-lg:w-8"
+					/>
+				</a>
+				<a href="https://www.tiktok.com/@cemilarupa.id">
+					<img
+						src="https://static-00.iconduck.com/assets.00/tik-tok-icon-1024x1024-zwq641op.png"
+						alt="tiktok icon"
+										class="w-20 max-lg:w-8"
+					/>
+				</a>
+				<a href="https://api.whatsapp.com/send/?phone=6281224549094&type=phone_number&app_absent=0">
+					<img
+						src={wa}
+						alt="whatsapp icon"
+										class="w-20 max-lg:w-8"
+					/>
+				</a>
 			</div>
 		</div>
+		<div class="border-b lg:hidden" />
 	</div>
 	<iframe
 		title="Cemilarupa maps"
@@ -55,6 +62,6 @@
 		loading="lazy"
 		referrerpolicy="no-referrer-when-downgrade"
 		allowfullscreen
-		class="w-full aspect-[4/3] lg:w-[600px]"
+		class="w-full aspect-[4/3] lg:w-[600px] max-lg:mt-5"
 	/>
 </section>

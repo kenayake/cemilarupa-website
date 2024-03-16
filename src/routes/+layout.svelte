@@ -16,7 +16,8 @@
 		content="Menjual cemilan-cemilan khas pajambon seperti basreng (bakso goreng), bolring (bolet kering), molring (cimol kering), kripang (kripik pangsit) dan siebol (sistik enak boled), dengan bumbu khas yang enak dan lezat."
 	/>
 </svelte:head>
-<div class="w-screen">
+
+<div class="max-w-screen">
 	<Nav />
 	<slot />
 	<Footer />
