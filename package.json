@@ -10,8 +10,7 @@
     "test": "playwright test",
     "test:unit": "vitest",
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
-    "format": "prettier --plugin-search-dir . --write .",
-    "postbuild": "npx svelte-sitemap --out-dir .vercel/output/static --domain https://cemilarupa-website.vercel.app/"
+    "format": "prettier --plugin-search-dir . --write ."
   },
   "devDependencies": {
     "@fontsource/fira-mono": "^4.5.10",
@@ -42,7 +41,6 @@
     "@fontsource/darumadrop-one": "^5.0.17",
     "@fontsource/londrina-solid": "^5.0.18",
     "lodash": "^4.17.21",
-    "ol": "^9.0.0",
-    "svelte-sitemap": "^2.6.0"
+    "ol": "^9.0.0"
   }
 }
