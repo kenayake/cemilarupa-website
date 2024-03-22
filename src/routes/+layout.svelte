@@ -7,6 +7,8 @@
 	import '@fontsource/barlow-condensed/400.css';
 	import '@fontsource/barlow-condensed/700.css';
 	import '@fontsource/londrina-solid';
+
+	export const prerender = true;
 </script>
 
 <svelte:head>
